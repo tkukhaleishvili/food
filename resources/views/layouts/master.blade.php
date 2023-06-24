@@ -81,8 +81,8 @@
           <div>
             <h4>Address</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 11229 - US<br>
+              1637 E 18th St <br>
+              Brooklyn, NY 11229 - US<br>
             </p>
           </div>
 
@@ -91,10 +91,10 @@
         <div class="col-lg-3 col-md-6 footer-links d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>Reservations</h4>
+            <h4>Delivery</h4>
             <p>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> +1 718 336 5556<br>
+              <strong>Email:</strong> madageorgia23@gmail.com<br>
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@
           <div>
             <h4>Opening Hours</h4>
             <p>
-              <strong>Mon-Sat: 11AM</strong> - 23PM<br>
+              <strong>Mon-Sat: 10AM</strong> - 23PM<br>
               Sunday: Closed
             </p>
           </div>
