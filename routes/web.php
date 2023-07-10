@@ -30,3 +30,6 @@ Route::prefix('mada')->name('mada.')->group(function () {
     Route::resource('/menus',MenuController::class);
     Route::resource('/galleries',GalleryController::class);
 });
+
+
+

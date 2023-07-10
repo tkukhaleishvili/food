@@ -10,8 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="{{asset('assets/css/main.css')}}" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
   <!-- =======================================================
   * Template Name: Yummy
@@ -38,15 +38,24 @@
 </head>
 
 <body>
-
+<style>
+  .logo_box{
+    background-color: #000;
+    padding: 5px 17px;
+    border-radius: 10px;
+  }
+  .logo_class {
+    max-width: 90px;
+}
+</style>
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="{{route('mada.about')}}" class="logo d-flex align-items-center me-auto me-lg-0">
+      <a href="{{route('mada.about')}}" class="logo_box" >
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Mada<span>.</span></h1>
+        <img class="img-fluid logo_class" src="{{ asset('assets/img/logo_png (1).png') }}" alt="Logo">
       </a>
 
       <nav id="navbar" class="navbar">

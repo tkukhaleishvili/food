@@ -21,7 +21,7 @@ class MenuController extends Controller
         $categories=Category::where('active', 1)
         ->with(['menus'])
         ->get();
-        // dd($categoies);
+         //dd($categories);
         return view('menus.menu',compact('menus', 'categories'));
     }
 
@@ -32,7 +32,15 @@ class MenuController extends Controller
      */
     public function create()
     {
-        return view('menus.create');
+        $menus=Menu::
+        orderBy('category_id')
+        ->get();
+
+        $categories=Category::where('active', 1)
+        ->with(['menus'])
+        ->get();
+         //dd($categories);
+        return view('menus.create',compact('categories'));
     }
 
     
@@ -44,6 +52,7 @@ class MenuController extends Controller
             'description' => 'required',
             'image' => 'required',
             'price' => 'required',
+            'category_id' => 'required|exists:categories,id',
         ]);
         //dd($validated);
         $image_path = $this->upload($request);

@@ -1653,3 +1653,14 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+a.glightbox {
+  padding: 0 10px;
+  display: block;
+  margin-bottom: 15px;
+}
+.menu .tab-content .menu-item .menu-img {
+  padding: 0 0px; 
+  margin-bottom: auto;
+  border-radius: 10px;
+}
